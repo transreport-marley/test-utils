@@ -113,7 +113,7 @@ All notable changes to this project will be documented in this file. See [standa
 - Add runtime fixture to workspace and address regressions ([#240](https://github.com/nuxt/test-utils/pull/240))
 - Opt-in to future vitest option ([#247](https://github.com/nuxt/test-utils/pull/247))
 - Use vite-ignore for playwright dynamic import ([c1ac4a08](https://github.com/nuxt/test-utils/commit/c1ac4a08))
-- Do not set process.browser globally ([#250](https://github.com/nuxt/test-utils/pull/250))
+- Do not set import.meta.browser globally ([#250](https://github.com/nuxt/test-utils/pull/250))
 - Support transpiling nuxt nightly releases ([c63f69c8](https://github.com/nuxt/test-utils/commit/c63f69c8))
 - Rewrite mock plugin for compat with vite 5/rollup 4 ([d0ba5af3](https://github.com/nuxt/test-utils/commit/d0ba5af3))
 - Do not skip transforms on test files ([3bbcc1ea](https://github.com/nuxt/test-utils/commit/3bbcc1ea))
